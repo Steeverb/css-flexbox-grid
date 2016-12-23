@@ -32,8 +32,8 @@ body {
   flex-direction: column;
   min-height: 100vh;
   font-family: "Space Mono", monospace;
-  font-weight: 700;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 .wrapper {
@@ -52,39 +52,9 @@ header {
   justify-content: space-between;
 }
 
-.sidebar {
-  min-width: 120px;
-  background-color: $midnight;
-}
-
-.sidebar-list {
-  display: flex;
-  margin-top: 30px;
-
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: center;
-}
-
-.sidebar-item {
-  margin-top: 25px;
-  cursor: pointer;
-  color: #3a3d46;
-  font-size: 24px;
-
-  @include transition(color, 200ms);
-  &:hover {
-    color: $white;
-  }
-}
-
-.sb-active {
-  color: $white;
-}
-
 .content {
   width: 100%;
-  padding: 50px;
+  padding: 5px;
   background-color: $grey;
 }
 
@@ -117,29 +87,6 @@ header {
   justify-content: center;
 }
 
-input[type="search"] {
-  display: flex;
-  width: 300px;
-  height: 15px;
-  margin-right: 20px;
-  padding: 10px;
-  border: 1px solid $grey;
-  border-radius: 5px;
-  outline: none;
-  font-size: 12px;
-
-  justify-content: flex-end;
-}
-
-.categories {
-  display: flex;
-  margin-left: 45px;
-}
-
-.category-item {
-  margin: 0 10px;
-}
-
 %img-placeholder {
   background-position: center;
   background-size: cover;
@@ -161,7 +108,7 @@ input[type="search"] {
     object-fit: cover;
   }
   &:nth-child(5) {
-    flex: 545px;
+    flex: 640px;
   }
 }
 
@@ -179,7 +126,7 @@ input[type="search"] {
 }
 
 .wide {
-  width: 480px;
+  width: 640px;
 }
 
 .card-img {
@@ -255,8 +202,8 @@ input[type="search"] {
   color: $white;
   background: rgba(0, 0, 0, 0.5);
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 3rem;
+  font-weight: 400;
 
   justify-content: center;
   align-items: center;
