@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="300px" viewBox="0 0 600 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>bg_1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="64.223855%" y1="60.0121578%" x2="74.7453392%" y2="19.838627%" id="linearGradient-1">
+            <stop stop-color="#FF2A91" offset="0%"></stop>
+            <stop stop-color="#F70038" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="UI-Kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="myl_1200x600_01" transform="translate(-300.000000, 0.000000)" fill="url(#linearGradient-1)">
+            <g id="MUSIC-YOU-LOVE" transform="translate(300.000000, 0.000000)">
+                <rect id="2-3" x="0" y="0" width="600" height="300"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
