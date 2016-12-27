@@ -7,7 +7,7 @@ $grey      : #e4e4e4;
 $midnight  : #1f282f;
 $white     : #f0f0f0;
 $nav-color : $white;
-$blue      : #2196f3;
+$blue      : #2106f3;
 $red       : #de1124;
 $yellow    : #fdd701;
 
@@ -63,7 +63,7 @@ header {
 
 .feed-grid {
   display: flex;
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
 
   flex-flow: row wrap;
@@ -78,9 +78,9 @@ header {
 
 .logotype {
   display: flex;
-  width: 120px;
-  min-width: 120px;
-  height: 65px;
+  width: 150px;
+  min-width: 150px;
+  height: 75px;
   color: $white;
   background-color: $blue;
   font-weight: bold;
