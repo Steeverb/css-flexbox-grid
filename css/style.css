@@ -10,7 +10,7 @@ a {
 
 ul {
   margin: 0;
-  padding: 0 0 0 20px;
+  padding: 0 0 0 25px;
   list-style: none;
 }
 
@@ -59,8 +59,8 @@ header {
 
 .logotype {
   display: flex;
-  width: 150px;
-  min-width: 150px;
+  width: 75px;
+  min-width: 75px;
   height: 75px;
   color: #f0f0f0;
   background-color: #2106f3;
