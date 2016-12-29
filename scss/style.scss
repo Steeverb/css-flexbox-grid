@@ -109,8 +109,8 @@ header {
 
     object-fit: cover;
   }
-  &:nth-child(5) {
-    flex: 640px;
+  &:nth-child(3n) {
+    flex: 600px;
   }
 }
 
@@ -180,7 +180,7 @@ header {
 
 .info-center {
   position: absolute;
-  top: 50%;
+  top: 0;
   right: 0;
   bottom: 0;
   left: 0;

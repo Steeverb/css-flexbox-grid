@@ -10,7 +10,7 @@ gulp.task('html', function() {
 });
 
 gulp.task('styles', function() {
-  console.log("imagine Sass or PostCSS here")
+  console.log("write a Sass compile script here")
 });
 
 
